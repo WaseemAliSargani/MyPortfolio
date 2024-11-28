@@ -52,7 +52,10 @@ const Banner = () => {
         </div>
 
         {/* image */}
-        <div className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
+        <div
+          data-aos='fade-up'
+          data-aos-delay='500'
+          className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
           <div className='flex-1 hidden lg:flex bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top '></div>
         </div>
       </div>
