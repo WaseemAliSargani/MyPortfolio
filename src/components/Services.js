@@ -26,16 +26,30 @@ const Services = () => {
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row'>
         {/* text & image*/}
-        <div className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
-          <h2 className='h2 text-accent mb-6'>What I Do.</h2>
-          <h3 className='h3 max-w-[455px] mb-16'>
+        <div
+          
+          className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
+          <h2 
+          data-aos='fade-right'
+          data-aos-delay='400'
+          className='h2 text-accent mb-6'>What I Do.</h2>
+          <h3 
+          data-aos='fade-right'
+          data-aos-delay='800'
+          className='h3 max-w-[455px] mb-16'>
             I'm a Front-end Developer with over 1 year of experience.
           </h3>
-          <button className='btn btn-sm'>See my work</button>
+          <button
+          data-aos='fade-right'
+          data-aos-delay='1400'
+          className='btn btn-sm'>See my work</button>
         </div>
 
         {/* services */}
-        <div className='flex-1'>
+        <div
+        data-aos='fade-left'
+          data-aos-delay='1000'
+        className='flex-1'>
           {/* service list */}
           <div>
             {services.map((service, index) => {

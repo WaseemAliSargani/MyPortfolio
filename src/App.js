@@ -14,7 +14,8 @@ const App = () => {
 
   useEffect(() => {
     Aos.init({
-      duration: 1200, // Animation duration in milliseconds
+      delay: 500,
+      duration: 2500, // Animation duration in milliseconds
     });
   }, []);
 

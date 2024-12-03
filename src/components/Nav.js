@@ -8,7 +8,10 @@ import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 
 const Nav = () => {
-  return <nav className='fixed bottom-2 w-full lg:bottom-8 overflow-hidden z-50'>
+  return <nav
+    data-aos='zoom-in'
+    data-aos-delay='700'
+    className='fixed bottom-8 w-full lg:bottom-8 overflow-hidden z-50'>
     <div className="container mx-auto  ">
 
       {/* nav btns */}

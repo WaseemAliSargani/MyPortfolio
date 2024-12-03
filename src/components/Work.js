@@ -15,20 +15,35 @@ const Work = () => {
         <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
           {/* text */}
           <div>
-            <h2 className='h2 leading-tight text-accent'>
+            <h2
+              data-aos='fade-down'
+              data-aos-delay='500'
+              className='h2 leading-tight text-accent'>
               My Latest <br />
               Work.
             </h2>
-            <p className='max-w-sm mb-16'>
+            <p
+              data-aos='fade-down'
+              data-aos-delay='700'
+              className='max-w-sm mb-16'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ea minima vitae consequuntur alias harum cum mollitia, velit voluptatum eaque!
             </p>
-            <a href="https://github.com/WaseemAliSargani" target='_blank'>
-              <button className='btn btn-sm' >View all Projects</button>
+            <a
+              data-aos='fade-down'
+              data-aos-delay='900'
+              href="https://github.com/WaseemAliSargani" target='_blank'>
+              <button
+                data-aos='fade-down'
+                data-aos-delay='900'
+                className='btn btn-sm' >View all Projects</button>
             </a>
           </div>
 
           {/* image */}
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <div
+            data-aos='zoom-in'
+            data-aos-delay='1200'
+            className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
 
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-10 transition-all duration-300 cursor-pointer'></div>
@@ -50,7 +65,10 @@ const Work = () => {
         <div className='flex-1 flex flex-col gap-y-10'>
 
           {/* image  2 */}
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <div
+            data-aos='zoom-in'
+            data-aos-delay='1400'
+            className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
 
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-10 transition-all duration-300 cursor-pointer'></div>
@@ -68,7 +86,10 @@ const Work = () => {
           </div>
 
           {/* image 3 */}
-          <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+          <div
+            data-aos='zoom-in'
+            data-aos-delay='1400'
+            className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
 
             {/* overlay */}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-10 transition-all duration-300 cursor-pointer'></div>

@@ -18,10 +18,16 @@ const About = () => {
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen '>
         {/* img */}
-        <div className='flex-1 hidden lg:flex bg-about bg-contain bg-no-repeat h-[600px] mix-blend-lighten bg-top '></div>
+        <div
+          data-aos='fade-right'
+          data-aos-delay='1000'
+          className='flex-1 hidden lg:flex bg-about bg-contain bg-no-repeat h-[600px] mix-blend-lighten bg-top '></div>
 
         {/* text */}
-        <div className='flex-1'>
+        <div
+          data-aos='fade-left'
+          data-aos-delay='1000'
+          className='flex-1'>
           <h2 className='h2 text-accent'>About me.</h2>
           <h3 className='h3 mb-4'>I'm a Front-end Developer with over 1 year of experience.</h3>
           <p className='mb-6'>
