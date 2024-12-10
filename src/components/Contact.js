@@ -22,7 +22,7 @@ const Contact = () => {
         <form 
         data-aos='fade-left'
             data-aos-delay='1200'
-        className='flex-1 flex flex-col border-2 rounded-xl border-white/50 py-8 px-6'>
+        className='flex-1 flex flex-col border-2 rounded-xl border-white/50 py-8 px-6 mb-12'>
           <input type="text" placeholder='Your name' className='bg-transparent focus:border-accent border-b-2 placeholder:text-white/90 transition-all duration-300 resize-none border-white/70 outline-none py-4 px-4 mb-6 text-xl text-white/90' />
 
           <input type="email" className='bg-transparent focus:border-accent border-b-2 placeholder:text-white/90 transition-all duration-300 resize-none border-white/70 outline-none py-4 px-4 mb-14 text-white/90 text-xl' placeholder='Your email' />
