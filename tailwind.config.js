@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/mypic.png')",
+        about: "url('./assets/MyGymPhoto-removebg-preview.png')",
         services: "url('./assets/services.png')",
       },
     },
